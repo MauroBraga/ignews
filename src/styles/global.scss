@@ -8,6 +8,7 @@
     --white: #FFFFFF;
     --gray-100:  #e1e1e6;
     --gray-300: #a8a8b3;
+    --gray-800: #29292e;
     --gray-900: #121214;
 
     --cyan-500: #61dafb;
@@ -28,10 +29,13 @@
 
 body {
     background: var(--gray-900);
+    color: var(--white);
 }
 
 body, input, textarea, select, button {
-    font: 400 1rem  "Roboto",  sans-serif
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 button {
